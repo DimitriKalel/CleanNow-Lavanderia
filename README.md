@@ -103,7 +103,7 @@ src/main/java/br/com/cleannow/
 ├── excecao/                       exceções de negócio
 └── util/                          validação, formatação e relógio ajustável
 src/test/java/                     testes JUnit 4
-docs/diagrama-classes.png          diagrama das principais classes
+
 ```
 
 ### POO aplicada
