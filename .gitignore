@@ -1,0 +1,9 @@
+target/
+relatorios/
+*.class
+*.log
+.idea/
+*.iml
+.vscode/
+.DS_Store
+dist/
