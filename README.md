@@ -34,13 +34,13 @@ mvn package
 java -jar target/cleannow.jar
 ```
 
-Atalhos: `./rodar.sh` (Linux/macOS) ou `rodar.bat` (Windows) compilam e executam.
+Atalhos: `./rodar.sh` (Linux/macOS) ou `CleanNow.bat` (Windows) compilam e executam.
 Também é possível rodar direto pelo Maven: `mvn compile exec:java`.
 
 Na primeira execução, escolha a opção **11 – Carregar dados de demonstração** para
 ter clientes e pedidos de exemplo (6 clientes, 16 pedidos em várias etapas).
 
-> **Windows:** se os acentos aparecerem errados, rode `chcp 65001` antes ou use o `rodar.bat`.
+> **Windows:** se os acentos aparecerem errados, rode `chcp 65001` antes ou use o `CleanNow.bat`.
 
 ### Testes
 
