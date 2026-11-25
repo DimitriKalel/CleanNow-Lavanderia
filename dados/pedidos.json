@@ -1,0 +1,1110 @@
+[
+  {
+    "codigo": "CN2026-0001",
+    "clienteId": "C001",
+    "criadoEm": "2026-08-08T08:30",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 4.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (4 kg x R$ 8,00)",
+          "valor": 32.0
+        },
+        {
+          "descricao": "Secagem (4 kg x R$ 5,00)",
+          "valor": 20.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "ENTREGUE",
+    "historico": [
+      {
+        "dataHora": "2026-08-08T08:30",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 52,00"
+      },
+      {
+        "dataHora": "2026-08-08T08:30",
+        "mensagem": "Coleta agendada: Coleta em 08/08/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-08-08T08:30",
+        "mensagem": "Entrega agendada: Entrega em 10/08/2026, Tarde (13h-18h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-08-08T11:00",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-08-08T14:00",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-08-09T10:00",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-08-09T10:00",
+        "mensagem": "Pagamento confirmado: R$ 72,00 via Cartão de débito em 09/08/2026 10:00"
+      },
+      {
+        "dataHora": "2026-08-09T16:00",
+        "mensagem": "Status atualizado para: ENTREGUE"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-08-08",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-08-10",
+      "periodo": "TARDE",
+      "taxa": 10.0
+    },
+    "pagamento": {
+      "valor": 72.0,
+      "meio": "CARTAO_DEBITO",
+      "dataHora": "2026-08-09T10:00"
+    }
+  },
+  {
+    "codigo": "CN2026-0002",
+    "clienteId": "C001",
+    "criadoEm": "2026-08-20T08:30",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 6.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (6 kg x R$ 8,00)",
+          "valor": 48.0
+        },
+        {
+          "descricao": "Secagem (6 kg x R$ 5,00)",
+          "valor": 30.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "ENTREGUE",
+    "historico": [
+      {
+        "dataHora": "2026-08-20T08:30",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 78,00"
+      },
+      {
+        "dataHora": "2026-08-20T08:30",
+        "mensagem": "Coleta agendada: Coleta em 20/08/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-08-20T08:30",
+        "mensagem": "Entrega agendada: Entrega em 21/08/2026, Tarde (13h-18h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-08-20T11:00",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-08-20T14:00",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-08-21T10:00",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-08-21T10:00",
+        "mensagem": "Pagamento confirmado: R$ 98,00 via Pix em 21/08/2026 10:00"
+      },
+      {
+        "dataHora": "2026-08-21T16:00",
+        "mensagem": "Status atualizado para: ENTREGUE"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-08-20",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-08-21",
+      "periodo": "TARDE",
+      "taxa": 10.0
+    },
+    "pagamento": {
+      "valor": 98.0,
+      "meio": "PIX",
+      "dataHora": "2026-08-21T10:00"
+    }
+  },
+  {
+    "codigo": "CN2026-0003",
+    "clienteId": "C001",
+    "criadoEm": "2026-09-01T08:30",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 5.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (5 kg x R$ 8,00)",
+          "valor": 40.0
+        },
+        {
+          "descricao": "Secagem (5 kg x R$ 5,00)",
+          "valor": 25.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "ENTREGUE",
+    "historico": [
+      {
+        "dataHora": "2026-09-01T08:30",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 65,00"
+      },
+      {
+        "dataHora": "2026-09-01T08:30",
+        "mensagem": "Coleta agendada: Coleta em 01/09/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-09-01T08:30",
+        "mensagem": "Entrega agendada: Entrega em 02/09/2026, Tarde (13h-18h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-09-01T11:00",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-09-01T14:00",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-09-02T10:00",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-09-02T10:00",
+        "mensagem": "Pagamento confirmado: R$ 85,00 via Cartão de débito em 02/09/2026 10:00"
+      },
+      {
+        "dataHora": "2026-09-02T16:00",
+        "mensagem": "Status atualizado para: ENTREGUE"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-09-01",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-09-02",
+      "periodo": "TARDE",
+      "taxa": 10.0
+    },
+    "pagamento": {
+      "valor": 85.0,
+      "meio": "CARTAO_DEBITO",
+      "dataHora": "2026-09-02T10:00"
+    }
+  },
+  {
+    "codigo": "CN2026-0004",
+    "clienteId": "C001",
+    "criadoEm": "2026-09-14T08:30",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 4.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (4 kg x R$ 8,00)",
+          "valor": 32.0
+        },
+        {
+          "descricao": "Secagem (4 kg x R$ 5,00)",
+          "valor": 20.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "ENTREGUE",
+    "historico": [
+      {
+        "dataHora": "2026-09-14T08:30",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 52,00"
+      },
+      {
+        "dataHora": "2026-09-14T08:30",
+        "mensagem": "Coleta agendada: Coleta em 14/09/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-09-14T08:30",
+        "mensagem": "Entrega agendada: Entrega em 15/09/2026, Tarde (13h-18h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-09-14T11:00",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-09-14T14:00",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-09-15T10:00",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-09-15T10:00",
+        "mensagem": "Pagamento confirmado: R$ 72,00 via Pix em 15/09/2026 10:00"
+      },
+      {
+        "dataHora": "2026-09-15T16:00",
+        "mensagem": "Status atualizado para: ENTREGUE"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-09-14",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-09-15",
+      "periodo": "TARDE",
+      "taxa": 10.0
+    },
+    "pagamento": {
+      "valor": 72.0,
+      "meio": "PIX",
+      "dataHora": "2026-09-15T10:00"
+    }
+  },
+  {
+    "codigo": "CN2026-0005",
+    "clienteId": "C001",
+    "criadoEm": "2026-09-25T08:30",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 6.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (6 kg x R$ 8,00)",
+          "valor": 48.0
+        },
+        {
+          "descricao": "Secagem (6 kg x R$ 5,00)",
+          "valor": 30.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "ENTREGUE",
+    "historico": [
+      {
+        "dataHora": "2026-09-25T08:30",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 78,00"
+      },
+      {
+        "dataHora": "2026-09-25T08:30",
+        "mensagem": "Coleta agendada: Coleta em 25/09/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-09-25T08:30",
+        "mensagem": "Entrega agendada: Entrega em 26/09/2026, Tarde (13h-18h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-09-25T11:00",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-09-25T14:00",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-09-26T10:00",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-09-26T10:00",
+        "mensagem": "Pagamento confirmado: R$ 98,00 via Cartão de débito em 26/09/2026 10:00"
+      },
+      {
+        "dataHora": "2026-09-26T16:00",
+        "mensagem": "Status atualizado para: ENTREGUE"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-09-25",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-09-26",
+      "periodo": "TARDE",
+      "taxa": 10.0
+    },
+    "pagamento": {
+      "valor": 98.0,
+      "meio": "CARTAO_DEBITO",
+      "dataHora": "2026-09-26T10:00"
+    }
+  },
+  {
+    "codigo": "CN2026-0006",
+    "clienteId": "C001",
+    "criadoEm": "2026-10-07T08:30",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 5.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (5 kg x R$ 8,00)",
+          "valor": 40.0
+        },
+        {
+          "descricao": "Secagem (5 kg x R$ 5,00)",
+          "valor": 25.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "ENTREGUE",
+    "historico": [
+      {
+        "dataHora": "2026-10-07T08:30",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 65,00"
+      },
+      {
+        "dataHora": "2026-10-07T08:30",
+        "mensagem": "Coleta agendada: Coleta em 07/10/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-10-07T08:30",
+        "mensagem": "Entrega agendada: Entrega em 08/10/2026, Tarde (13h-18h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-10-07T11:00",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-10-07T14:00",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-10-08T10:00",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-10-08T10:00",
+        "mensagem": "Pagamento confirmado: R$ 85,00 via Pix em 08/10/2026 10:00"
+      },
+      {
+        "dataHora": "2026-10-08T16:00",
+        "mensagem": "Status atualizado para: ENTREGUE"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-10-07",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-10-08",
+      "periodo": "TARDE",
+      "taxa": 10.0
+    },
+    "pagamento": {
+      "valor": 85.0,
+      "meio": "PIX",
+      "dataHora": "2026-10-08T10:00"
+    }
+  },
+  {
+    "codigo": "CN2026-0007",
+    "clienteId": "C001",
+    "criadoEm": "2026-10-19T08:30",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 4.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (4 kg x R$ 8,00)",
+          "valor": 32.0
+        },
+        {
+          "descricao": "Secagem (4 kg x R$ 5,00)",
+          "valor": 20.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "ENTREGUE",
+    "historico": [
+      {
+        "dataHora": "2026-10-19T08:30",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 52,00"
+      },
+      {
+        "dataHora": "2026-10-19T08:30",
+        "mensagem": "Coleta agendada: Coleta em 19/10/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-10-19T08:30",
+        "mensagem": "Entrega agendada: Entrega em 20/10/2026, Tarde (13h-18h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-10-19T11:00",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-10-19T14:00",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-10-20T10:00",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-10-20T10:00",
+        "mensagem": "Pagamento confirmado: R$ 72,00 via Cartão de débito em 20/10/2026 10:00"
+      },
+      {
+        "dataHora": "2026-10-20T16:00",
+        "mensagem": "Status atualizado para: ENTREGUE"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-10-19",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-10-20",
+      "periodo": "TARDE",
+      "taxa": 10.0
+    },
+    "pagamento": {
+      "valor": 72.0,
+      "meio": "CARTAO_DEBITO",
+      "dataHora": "2026-10-20T10:00"
+    }
+  },
+  {
+    "codigo": "CN2026-0008",
+    "clienteId": "C001",
+    "criadoEm": "2026-10-31T08:30",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 6.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (6 kg x R$ 8,00)",
+          "valor": 48.0
+        },
+        {
+          "descricao": "Secagem (6 kg x R$ 5,00)",
+          "valor": 30.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "ENTREGUE",
+    "historico": [
+      {
+        "dataHora": "2026-10-31T08:30",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 78,00"
+      },
+      {
+        "dataHora": "2026-10-31T08:30",
+        "mensagem": "Coleta agendada: Coleta em 31/10/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-10-31T08:30",
+        "mensagem": "Entrega agendada: Entrega em 02/11/2026, Tarde (13h-18h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-10-31T11:00",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-10-31T14:00",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-11-01T10:00",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-11-01T10:00",
+        "mensagem": "Pagamento confirmado: R$ 98,00 via Pix em 01/11/2026 10:00"
+      },
+      {
+        "dataHora": "2026-11-01T16:00",
+        "mensagem": "Status atualizado para: ENTREGUE"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-10-31",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-11-02",
+      "periodo": "TARDE",
+      "taxa": 10.0
+    },
+    "pagamento": {
+      "valor": 98.0,
+      "meio": "PIX",
+      "dataHora": "2026-11-01T10:00"
+    }
+  },
+  {
+    "codigo": "CN2026-0009",
+    "clienteId": "C001",
+    "criadoEm": "2026-11-12T08:30",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 5.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (5 kg x R$ 8,00)",
+          "valor": 40.0
+        },
+        {
+          "descricao": "Secagem (5 kg x R$ 5,00)",
+          "valor": 25.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "ENTREGUE",
+    "historico": [
+      {
+        "dataHora": "2026-11-12T08:30",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 65,00"
+      },
+      {
+        "dataHora": "2026-11-12T08:30",
+        "mensagem": "Coleta agendada: Coleta em 12/11/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-11-12T08:30",
+        "mensagem": "Entrega agendada: Entrega em 13/11/2026, Tarde (13h-18h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-11-12T11:00",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-11-12T14:00",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-11-13T10:00",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-11-13T10:00",
+        "mensagem": "Pagamento confirmado: R$ 85,00 via Cartão de débito em 13/11/2026 10:00"
+      },
+      {
+        "dataHora": "2026-11-13T16:00",
+        "mensagem": "Status atualizado para: ENTREGUE"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-11-12",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-11-13",
+      "periodo": "TARDE",
+      "taxa": 10.0
+    },
+    "pagamento": {
+      "valor": 85.0,
+      "meio": "CARTAO_DEBITO",
+      "dataHora": "2026-11-13T10:00"
+    }
+  },
+  {
+    "codigo": "CN2026-0010",
+    "clienteId": "C002",
+    "criadoEm": "2026-11-04T10:00",
+    "codigosServicos": [
+      "LAV",
+      "SEC",
+      "PAS"
+    ],
+    "pesoKg": 7.0,
+    "quantidadePecas": 12,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (7 kg x R$ 8,00)",
+          "valor": 56.0
+        },
+        {
+          "descricao": "Secagem (7 kg x R$ 5,00)",
+          "valor": 35.0
+        },
+        {
+          "descricao": "Passar roupa (12 peças x R$ 3,00)",
+          "valor": 36.0
+        },
+        {
+          "descricao": "Desconto Pacote Completo (10%)",
+          "valor": -12.7
+        },
+        {
+          "descricao": "Desconto cliente VIP (15%)",
+          "valor": -17.14
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "pacoteAplicado": "Pacote Completo",
+    "status": "ENTREGUE",
+    "historico": [
+      {
+        "dataHora": "2026-11-04T10:00",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 97,16"
+      },
+      {
+        "dataHora": "2026-11-04T10:00",
+        "mensagem": "Coleta agendada: Coleta em 04/11/2026, Tarde (13h-18h) (taxa grátis)"
+      },
+      {
+        "dataHora": "2026-11-04T11:00",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-11-04T14:00",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-11-05T10:00",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-11-05T10:00",
+        "mensagem": "Pagamento confirmado: R$ 97,16 via Cartão de crédito em 05/11/2026 10:00"
+      },
+      {
+        "dataHora": "2026-11-05T16:00",
+        "mensagem": "Status atualizado para: ENTREGUE"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-11-04",
+      "periodo": "TARDE",
+      "taxa": 0.0
+    },
+    "pagamento": {
+      "valor": 97.16,
+      "meio": "CARTAO_CREDITO",
+      "dataHora": "2026-11-05T10:00"
+    }
+  },
+  {
+    "codigo": "CN2026-0011",
+    "clienteId": "C005",
+    "criadoEm": "2026-11-24T07:40",
+    "codigosServicos": [
+      "LAV"
+    ],
+    "pesoKg": 4.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (4 kg x R$ 8,00)",
+          "valor": 32.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "COLETADO",
+    "historico": [
+      {
+        "dataHora": "2026-11-24T07:40",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 32,00"
+      },
+      {
+        "dataHora": "2026-11-24T07:40",
+        "mensagem": "Coleta agendada: Coleta em 24/11/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-11-24T07:40",
+        "mensagem": "Status atualizado para: COLETADO"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-11-24",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    }
+  },
+  {
+    "codigo": "CN2026-0012",
+    "clienteId": "C002",
+    "criadoEm": "2026-11-24T07:55",
+    "codigosServicos": [
+      "LAV",
+      "SEC",
+      "PAS"
+    ],
+    "pesoKg": 6.0,
+    "quantidadePecas": 10,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (6 kg x R$ 8,00)",
+          "valor": 48.0
+        },
+        {
+          "descricao": "Secagem (6 kg x R$ 5,00)",
+          "valor": 30.0
+        },
+        {
+          "descricao": "Passar roupa (10 peças x R$ 3,00)",
+          "valor": 30.0
+        },
+        {
+          "descricao": "Desconto Pacote Completo (10%)",
+          "valor": -10.8
+        },
+        {
+          "descricao": "Desconto cliente VIP (15%)",
+          "valor": -14.58
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "pacoteAplicado": "Pacote Completo",
+    "status": "COLETADO",
+    "historico": [
+      {
+        "dataHora": "2026-11-24T07:55",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 82,62"
+      },
+      {
+        "dataHora": "2026-11-24T07:55",
+        "mensagem": "Coleta agendada: Coleta em 24/11/2026, Manhã (08h-12h) (taxa grátis)"
+      },
+      {
+        "dataHora": "2026-11-24T07:55",
+        "mensagem": "Entrega agendada: Entrega em 26/11/2026, Tarde (13h-18h) (taxa grátis)"
+      },
+      {
+        "dataHora": "2026-11-24T07:55",
+        "mensagem": "Status atualizado para: COLETADO"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-11-24",
+      "periodo": "MANHA",
+      "taxa": 0.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-11-26",
+      "periodo": "TARDE",
+      "taxa": 0.0
+    }
+  },
+  {
+    "codigo": "CN2026-0013",
+    "clienteId": "C004",
+    "criadoEm": "2026-11-24T08:10",
+    "codigosServicos": [
+      "SEC"
+    ],
+    "pesoKg": 3.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Secagem (3 kg x R$ 5,00)",
+          "valor": 15.0
+        },
+        {
+          "descricao": "Desconto cliente VIP (15%)",
+          "valor": -2.25
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "EM_PROCESSO",
+    "historico": [
+      {
+        "dataHora": "2026-11-24T08:10",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 12,75"
+      },
+      {
+        "dataHora": "2026-11-24T08:10",
+        "mensagem": "Coleta agendada: Coleta em 24/11/2026, Manhã (08h-12h) (taxa grátis)"
+      },
+      {
+        "dataHora": "2026-11-24T08:10",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-11-24T08:10",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-11-24",
+      "periodo": "MANHA",
+      "taxa": 0.0
+    }
+  },
+  {
+    "codigo": "CN2026-0014",
+    "clienteId": "C006",
+    "criadoEm": "2026-11-24T08:20",
+    "codigosServicos": [
+      "PAS"
+    ],
+    "pesoKg": 0.0,
+    "quantidadePecas": 15,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Passar roupa (15 peças x R$ 3,00)",
+          "valor": 45.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "PRONTO",
+    "historico": [
+      {
+        "dataHora": "2026-11-24T08:20",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 45,00"
+      },
+      {
+        "dataHora": "2026-11-24T08:20",
+        "mensagem": "Cliente vai levar as roupas à loja."
+      },
+      {
+        "dataHora": "2026-11-24T08:20",
+        "mensagem": "Status atualizado para: COLETADO"
+      },
+      {
+        "dataHora": "2026-11-24T08:20",
+        "mensagem": "Status atualizado para: EM PROCESSO"
+      },
+      {
+        "dataHora": "2026-11-24T08:20",
+        "mensagem": "Status atualizado para: PRONTO"
+      },
+      {
+        "dataHora": "2026-11-24T08:20",
+        "mensagem": "Pagamento confirmado: R$ 45,00 via Dinheiro em 24/11/2026 08:20"
+      }
+    ],
+    "pagamento": {
+      "valor": 45.0,
+      "meio": "DINHEIRO",
+      "dataHora": "2026-11-24T08:20"
+    }
+  },
+  {
+    "codigo": "CN2026-0015",
+    "clienteId": "C003",
+    "criadoEm": "2026-11-24T09:00",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 12.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (12 kg x R$ 8,00)",
+          "valor": 96.0
+        },
+        {
+          "descricao": "  Franquia do plano - Lavagem (12,0 kg)",
+          "valor": -96.0
+        },
+        {
+          "descricao": "Secagem (12 kg x R$ 5,00)",
+          "valor": 60.0
+        },
+        {
+          "descricao": "  Franquia do plano - Secagem (12,0 kg)",
+          "valor": -60.0
+        }
+      ],
+      "kgFranquiaUsados": 12.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Plano de assinatura mensal"
+    },
+    "status": "AGUARDANDO_COLETA",
+    "historico": [
+      {
+        "dataHora": "2026-11-24T09:00",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 0,00"
+      },
+      {
+        "dataHora": "2026-11-24T09:00",
+        "mensagem": "Coleta agendada: Coleta em 25/11/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-11-24T09:00",
+        "mensagem": "Entrega agendada: Entrega em 26/11/2026, Manhã (08h-12h) (taxa R$ 10,00)"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-11-25",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    },
+    "entrega": {
+      "tipo": "ENTREGA",
+      "data": "2026-11-26",
+      "periodo": "MANHA",
+      "taxa": 10.0
+    }
+  },
+  {
+    "codigo": "CN2026-0016",
+    "clienteId": "C005",
+    "criadoEm": "2026-11-24T09:30",
+    "codigosServicos": [
+      "LAV",
+      "SEC"
+    ],
+    "pesoKg": 5.0,
+    "quantidadePecas": 0,
+    "orcamento": {
+      "linhas": [
+        {
+          "descricao": "Lavagem (5 kg x R$ 8,00)",
+          "valor": 40.0
+        },
+        {
+          "descricao": "Secagem (5 kg x R$ 5,00)",
+          "valor": 25.0
+        }
+      ],
+      "kgFranquiaUsados": 0.0,
+      "kgBonusUsados": 0.0,
+      "modalidade": "Pagamento por serviço"
+    },
+    "status": "CANCELADO",
+    "historico": [
+      {
+        "dataHora": "2026-11-24T09:30",
+        "mensagem": "Pedido criado. Total dos serviços: R$ 65,00"
+      },
+      {
+        "dataHora": "2026-11-24T09:30",
+        "mensagem": "Coleta agendada: Coleta em 25/11/2026, Tarde (13h-18h) (taxa R$ 10,00)"
+      },
+      {
+        "dataHora": "2026-11-24T09:30",
+        "mensagem": "Pedido cancelado: cliente viajou"
+      }
+    ],
+    "coleta": {
+      "tipo": "COLETA",
+      "data": "2026-11-25",
+      "periodo": "TARDE",
+      "taxa": 10.0
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "codigo": "LAV",
+    "nome": "Lavagem",
+    "precoUnitario": 8.0,
+    "tipo": "LAVAGEM"
+  },
+  {
+    "codigo": "SEC",
+    "nome": "Secagem",
+    "precoUnitario": 5.0,
+    "tipo": "SECAGEM"
+  },
+  {
+    "codigo": "PAS",
+    "nome": "Passar roupa",
+    "precoUnitario": 3.0,
+    "tipo": "PASSAR"
+  }
+]

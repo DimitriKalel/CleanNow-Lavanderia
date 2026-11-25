@@ -1,0 +1,115 @@
+[
+  {
+    "id": "C001",
+    "nome": "Maria Fernanda Lima",
+    "telefone": "86998123344",
+    "email": "maria.lima@email.com",
+    "endereco": "Rua Areolino de Abreu, 1200 - Centro, Teresina",
+    "dataCadastro": "2026-07-27",
+    "preferencias": {
+      "periodoPreferido": "MANHA",
+      "amaciante": false,
+      "roupasDobradas": true,
+      "sabaoHipoalergenico": false,
+      "observacoes": ""
+    },
+    "pedidosPagos": 9,
+    "kgBonusDisponivel": 0.0,
+    "tipo": "COMUM"
+  },
+  {
+    "id": "C002",
+    "nome": "Carlos Eduardo Rocha",
+    "telefone": "86988771020",
+    "email": "carlos.rocha@email.com",
+    "endereco": "Av. Nossa Senhora de Fátima, 455 - Fátima, Teresina",
+    "dataCadastro": "2026-07-27",
+    "preferencias": {
+      "periodoPreferido": "TARDE",
+      "amaciante": true,
+      "roupasDobradas": false,
+      "sabaoHipoalergenico": false,
+      "observacoes": "Camisas sociais em cabide"
+    },
+    "pedidosPagos": 1,
+    "kgBonusDisponivel": 0.0,
+    "tipo": "VIP"
+  },
+  {
+    "id": "C003",
+    "nome": "Ana Beatriz Sousa",
+    "telefone": "86999012233",
+    "email": "ana.sousa@email.com",
+    "endereco": "Rua Jônatas Batista, 88 - Jóquei, Teresina",
+    "dataCadastro": "2026-07-27",
+    "preferencias": {
+      "amaciante": true,
+      "roupasDobradas": true,
+      "sabaoHipoalergenico": true,
+      "observacoes": ""
+    },
+    "assinatura": {
+      "ativa": true,
+      "inicio": "2026-11",
+      "mesReferencia": "2026-11",
+      "kgUsadosNoMes": 12.0,
+      "mensalidadesPagas": [
+        "2026-11"
+      ]
+    },
+    "pedidosPagos": 0,
+    "kgBonusDisponivel": 0.0,
+    "tipo": "COMUM"
+  },
+  {
+    "id": "C004",
+    "nome": "Pedro Henrique Alves",
+    "telefone": "86994567788",
+    "email": "pedro.alves@email.com",
+    "endereco": "Rua Desembargador Freitas, 300 - Ilhotas, Teresina",
+    "dataCadastro": "2026-07-27",
+    "preferencias": {
+      "amaciante": true,
+      "roupasDobradas": true,
+      "sabaoHipoalergenico": false,
+      "observacoes": ""
+    },
+    "pedidosPagos": 0,
+    "kgBonusDisponivel": 0.0,
+    "tipo": "VIP"
+  },
+  {
+    "id": "C005",
+    "nome": "Juliana Castro",
+    "telefone": "86981234567",
+    "email": "juliana.castro@email.com",
+    "endereco": "Rua Coelho Rodrigues, 1500 - Centro, Teresina",
+    "dataCadastro": "2026-07-27",
+    "preferencias": {
+      "amaciante": true,
+      "roupasDobradas": true,
+      "sabaoHipoalergenico": false,
+      "observacoes": ""
+    },
+    "pedidosPagos": 0,
+    "kgBonusDisponivel": 0.0,
+    "tipo": "COMUM"
+  },
+  {
+    "id": "C006",
+    "nome": "Rafael Nogueira",
+    "telefone": "8632214455",
+    "email": "rafael.nogueira@email.com",
+    "endereco": "Av. Frei Serafim, 2100 - Centro, Teresina",
+    "dataCadastro": "2026-07-27",
+    "preferencias": {
+      "amaciante": true,
+      "roupasDobradas": true,
+      "sabaoHipoalergenico": false,
+      "observacoes": ""
+    },
+    "pedidosPagos": 1,
+    "kgBonusDisponivel": 0.0,
+    "tipo": "COMUM"
+  }
+]

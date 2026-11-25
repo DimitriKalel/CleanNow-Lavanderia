@@ -1,0 +1,12 @@
+[
+  {
+    "id": "COMPLETO",
+    "nome": "Pacote Completo",
+    "codigosServicos": [
+      "LAV",
+      "SEC",
+      "PAS"
+    ],
+    "desconto": 0.1
+  }
+]
